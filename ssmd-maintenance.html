@@ -193,7 +193,7 @@
   </head>
   <body>
     <div class="container">
-      <div class="logo">Virtual Hub</div>
+      <div class="logo">{{company_name}}</div>
       
       <div class="maintenance-card">
         <h1>System Maintenance in Progress</h1>
@@ -219,7 +219,7 @@
       </div>
       
       <footer>
-        &copy; 2025 YourCompany. All rights reserved.
+        &copy; <script>document.write(new Date().getFullYear());</script> {{company_name}} All rights reserved.
       </footer>
     </div>
   </body>
